@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incredible India – Virtual Tour Portal</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #d4a017 !important; /* Mustard color */
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://img.freepik.com/free-photo/empty-save-texture-room-light_1258-175.jpg?semt=ais_hybrid&w=740&q=80') center/cover no-repeat;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+    .state-card img {
+      height: 220px;   /* equal height */
+      width: 100%;     /* responsive width */
+      object-fit: cover; /* crop nicely */
+      border-top-left-radius: .5rem;
+      border-top-right-radius: .5rem;
+    }
+    footer {
+      background: #d4a017;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .btn-mustard {
+      background-color: #d4a017;
+      border: none;
+      color: white;
+    }
+    .btn-mustard:hover {
+      background-color: #b8860b;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><i class="bi bi-globe2"></i> Incredible India</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#states"><i class="bi bi-map"></i> States</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-info-circle"></i> About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>Incredible India – Virtual Tour</h1>
+    <p>Explore all States and Famous Places To Visit </p>
+  </div>
+</section>
+
+<!-- States Section -->
+<section id="states" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4"><i class="bi bi-geo-alt-fill"></i> Explore States & UTs</h2>
+    <div class="row g-4">
+
+      <!-- Rajasthan -->
+      <div class="col-md-4">
+        <div class="card state-card shadow-sm">
+          <a href="rajasthan.html">
+            <img src="image/raj.jpg" class="card-img-top" alt="Rajasthan">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Rajasthan</h5>
+            <p class="card-text">Palaces, deserts, and vibrant culture await you in the Land of Kings.</p>
+            <a href="rajasthan.html"class="btn btn-mustard">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Uttar Pradesh -->
+      <div class="col-md-4">
+        <div class="card state-card shadow-sm">
+          <a href="uttarpradesh.html">
+            <img src="image/up.jpg" class="card-img-top" alt="Uttar Pradesh">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Uttar Pradesh</h5>
+            <p class="card-text">Home to the Taj Mahal, spiritual cities, and ancient heritage.</p>
+            <a href="uttarpradesh.html" class="btn btn-mustard">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tamil Nadu -->
+      <div class="col-md-4">
+        <div class="card state-card shadow-sm">
+          <a href="tamilnadu.html">
+            <img src="image/tn.jpg" class="card-img-top" alt="Tamil Nadu">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Tamil Nadu</h5>
+            <p class="card-text">Temples, culture, and classical traditions of South India.</p>
+            <a href="tamilnadu.html" class="btn btn-mustard">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Maharashtra -->
+      <div class="col-md-4">
+        <div class="card state-card shadow-sm">
+          <a href="maha.html">
+            <img src="image/maha.jpg" class="card-img-top" alt="Maharashtra">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Maharashtra</h5>
+            <p class="card-text">Mumbai, Ajanta Caves, forts, and vibrant Marathi culture.</p>
+            <a href="maha.html" class="btn btn-mustard">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gujarat -->
+      <div class="col-md-4">
+        <div class="card state-card shadow-sm">
+          <a href="gujarat.html">
+            <img src="image/guj.jpg" class="card-img-top" alt="Gujarat">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Gujarat</h5>
+            <p class="card-text">Gir lions, Rann of Kutch, and colorful traditions.</p>
+            <a href="gujarat.html" class="btn btn-mustard">View More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Delhi -->
+      <div class="col-md-4">
+        <div class="card state-card shadow-sm">
+          <a href="delhi.html">
+            <img src="image/hinduuu.jpg" class="card-img-top" alt="Delhi">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Delhi</h5>
+            <p class="card-text">India’s capital with Mughal history and modern vibes.</p>
+            <a href="delhi.html" class="btn btn-mustard">View More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-3"><i class="bi bi-info-circle-fill"></i> About This Portal</h2>
+    <p class="text-center">This virtual tour portal gives you a glimpse into the cultural, historical, and natural beauty of India. Click on each state to know more about attractions, festivals, and cuisine.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Incredible India Virtual Tour Portal | Designed with ❤</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
